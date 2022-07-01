@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@200&family=Sarabun:ital,wght@1,200&family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Playfair+Display:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #fff2e7;
+    font-family: 'Titillium Web', sans-serif;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: top;
+    list-style: none;
+}
+#logo img{
+    width:110px;
+    height: 90px;
+}
+nav ul li{
+    margin: 0 10px;
+}
+nav{
+    background-color: teal;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+a:hover{
+    color: black;
+}
+header{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: gray;
+}
+#bio img{
+    width: 20vw;
+    height: 60vh;
+    border: 2px solid black;
+    border-radius: 5000px;
+    margin: 35px;
+}
+#bio{
+    display: flex;
+    margin-top: 5%;
+}
+#bio h2{
+    position: absolute;
+    left: 625px;
+    top: 300px;
+    font-weight: 1000;
+    font-size: 3em;
+}
+#bio p{
+    text-indent: 50px;
+    font-size: 0.6cm;
+    font-weight: 450;
+}
+#portfolio{
+    text-align: center;
+    background-color:gray;
+    height: 90vh;
+}
+#portfolio h3{
+    font-weight: 1000;
+    font-size: 3em;
+}
+#portfolio #photos3{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    height: 70vh;
+} 
+#photos3 img{
+    width: 20vw;
+    height: 45.9vh; 
+}
+#second img{
+    width: 20vw;
+    height: 45.9vh;
+}
+#third img{
+    width: 20vw;
+    height: 45.9vh;
+}
+#first{
+    background-color: white;
+    height: 55vh; 
+}
+#second{
+    background-color: white;
+    height: 55vh;
+}
+#third{
+    background-color: white;
+    height: 55vh;
+}
+#skills {
+    text-align: center;
+    background: skyblue; 
+}
+#skill-title{
+    font-size: 2em;
+}
+#ref{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    font-size: 2vw;
+}
+#s li{
+    list-style: none;
+}
+#foot{
+
+    position:absolute;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align:center;
+    list-style: none;
+}
+#foot #contact{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: gray;
+    height: 70px;
+}
+#tele img{
+    width: 50px;;
+    height: 50px;
+}
+#mail img{
+    width: 50px;;
+    height: 50px;
+}
+#insta img{
+    width: 50px;;
+    height: 50px;
+}
+#twitter img{
+    width: 50px;;
+    height: 50px;
+}
+#foot h2{
+    color: black;
+}
+div li{
+
+    list-style: none;
+}
+
+div li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+progress {
+    border: none;
+    width: 300px;
+    height: 20px;
+    background: crimson;
+  }
+  
+  progress {
+    color: black;
+  }
+  
+  progress::-webkit-progress-value {
+    background: black;
+  }
+  
+  progress::-moz-progress-bar {
+    background: lightcolor;
+  }
