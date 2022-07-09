@@ -47,21 +47,25 @@ header{
     border-radius: 5000px;
     margin: 35px;
 }
+header div #ceo{
+    font-size: 1.5em;
+}
 #bio{
     display: flex;
     margin-top: 5%;
 }
 #bio h2{
-    position: absolute;
-    left: 625px;
-    top: 300px;
-    font-weight: 1000;
-    font-size: 3em;
+    text-align: center;
+    margin-right: 25vw;
+    font-size: 1.5em;
+}
+h5{
+    font-size: 1.2em;
 }
 #bio p{
     text-indent: 50px;
-    font-size: 0.6cm;
-    font-weight: 450;
+    font-size: 1.1em;
+    font-weight: bold;
 }
 #portfolio{
     text-align: center;
